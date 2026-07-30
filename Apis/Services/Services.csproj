@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpier.MsBuild" Version="0.30.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Financials\Banks\Enums\" />
+    <Folder Include="Features\Financials\CashFlows\Enums\" />
+    <Folder Include="Features\Financials\ContractStates\Enums\" />
+    <Folder Include="Features\Financials\Contracts\Enums\" />
+    <Folder Include="Features\Financials\ContractTypes\Enums\" />
+    <Folder Include="Features\Financials\CostCenters\Enums\" />
+    <Folder Include="Features\Financials\CurrencyTypes\Enums\" />
+    <Folder Include="Features\Financials\Expenses\Enums\" />
+    <Folder Include="Features\Financials\ExpenseTypes\Enums\" />
+    <Folder Include="Features\Financials\InvoiceStates\Enums\" />
+    <Folder Include="Features\Financials\Invoices\Enums\" />
+    <Folder Include="Features\Financials\InvoiceTypes\Enums\" />
+    <Folder Include="Features\Financials\MovementTypes\Enums\" />
+    <Folder Include="Features\Financials\PaymentStates\Enums\" />
+    <Folder Include="Features\Financials\Revenues\Enums\" />
+    <Folder Include="Features\Financials\RevenueTypes\Enums\" />
+    <Folder Include="Features\Peoples\ActivityBranchs\Enums\" />
+    <Folder Include="Features\Peoples\Careers\Enums\" />
+    <Folder Include="Features\Peoples\Customers\Enums\" />
+    <Folder Include="Features\Peoples\EducationLevels\Enums\" />
+    <Folder Include="Features\Peoples\JuridicalNatures\Enums\" />
+    <Folder Include="Features\Peoples\MaritalStates\Enums\" />
+    <Folder Include="Features\Peoples\ProfessionalProfiles\Enums\" />
+    <Folder Include="Features\Peoples\Sellers\Enums\" />
+    <Folder Include="Features\Peoples\SkillCategories\Enums\" />
+    <Folder Include="Features\Peoples\SkillLevels\Enums\" />
+    <Folder Include="Features\Peoples\SkillStates\Enums\" />
+    <Folder Include="Features\Peoples\Skills\Enums\" />
+    <Folder Include="Features\Peoples\SkillTypes\Enums\" />
+    <Folder Include="Features\Peoples\Sponsors\Enums\" />
+    <Folder Include="Features\Peoples\Suppliers\Enums\" />
+    <Folder Include="Features\Peoples\Talents\Enums\" />
+    <Folder Include="Features\Projects\Projects\Repositories\" />
+    <Folder Include="Features\Settings\DocumentTypes\Repositories\" />
+  </ItemGroup>
+
+</Project>

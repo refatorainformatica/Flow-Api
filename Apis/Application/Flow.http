@@ -1,0 +1,6 @@
+﻿@Flow_HostAddress = http://localhost:5218
+
+GET {{Flow_HostAddress}}/meta/info
+Accept: application/json
+
+###

@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: Flow.Api [https]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\Flow.Api\\Flow.Api.csproj",
+            "launchConfigurationId": "TargetFramework=;https"
+        },
+        {
+            "name": "C#: Flow.Api [http]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\Flow.Api\\Flow.Api.csproj",
+            "launchConfigurationId": "TargetFramework=;http"
+        },
+        {
+            "name": "C#: Flow.Api [dockerCompose]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\Flow.Api\\Flow.Api.csproj",
+            "launchConfigurationId": "TargetFramework=;dockerCompose"
+        },
+        {
+            "name": "C#: Flow.Api [docker]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\Flow.Api\\Flow.Api.csproj",
+            "launchConfigurationId": "TargetFramework=;docker"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "FlowDatabase": "Data Source=localhost;Initial Catalog=Flow;Persist Security Info=True;User ID=sa;Password=REPLACE_WITH_SQL_PASSWORD;Encrypt=True;Trust Server Certificate=True"
+  },
+  "Security": {
+    "Authorization": {
+      "DefalutProvider": "AzureAd",
+      "AzureAd": {
+        "Audience": "api://flow/scopes",
+        "Authority": "https://sts.windows.net/16bca20c-082a-4450-98cf-9c617fa64916",
+        "TenantId": "16bca20c-082a-4450-98cf-9c617fa64916"
+      },
+      "Jwt": {
+        "SecurityKey": "REPLACE_WITH_JWT_SECURITY_KEY_AT_LEAST_32_CHARS"
+      }
+    }
+  },
+  "Observability": {
+    "DefalutProvider": "Seq",
+    "ApplicationInsights": {
+      "InstrumentationKey": ""
+    },
+    "ElasticSearch": {
+      "Url": "http://localhost:9200"
+    },
+    "Seq": {
+      "Url": "http://172.18.0.3:5341"
+    },
+    "File": {
+      "Path": "/usr/share/flowapi/logs/log-.txt",
+      "RollingInterval": "Day"
+    }
+  },
+  "AI": {
+    "OpenAI": {
+      "ApiKey": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "dotnet": {
+        "enabled": true,
+        "defaultProject": "Apis/Application/Application.csproj",
+        "buildCommand": "dotnet build",
+        "runCommand": "dotnet run --project Apis/Application/Application.csproj",
+        "watchCommand": "dotnet watch run --project Apis/Application/Application.csproj",
+        "debugger": {
+            "enabled": true,
+            "type": "coreclr",
+            "request": "launch",
+            "name": ".NET Core Launch (web)",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Apis/Application/bin/Debug/net8.0/Application.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Apis/Application",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        }
+    }
+} 

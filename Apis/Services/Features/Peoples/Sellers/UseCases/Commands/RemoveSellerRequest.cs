@@ -1,0 +1,11 @@
+﻿using MediatR;
+using Services.Features.Peoples.Sellers.Models;
+using Shared.Domain.Abstractions.Primitives;
+
+namespace Services.Features.Peoples.Sellers.UseCases.Commands
+{
+    public class RemoveSellerRequest : IRequest<Result<Response<SellerResponse>>>
+    {
+        public int Id { get; set; }
+    }
+}

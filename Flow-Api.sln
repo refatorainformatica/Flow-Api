@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{363159A9-A84D-49BD-BB0F-0F4BDCC7CDF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{F2834B7E-4FFF-4E8C-8A1D-0AAFA5D9E24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Apis\Application\Application.csproj", "{B3AFCBD5-1E9E-499D-9A45-C83A95E75913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Apis\Services\Services.csproj", "{F29F0906-0A83-48B2-8AC8-BE5705E249B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Apis\Shared\Shared.csproj", "{37BC411B-0D54-480A-B0D1-0C7693F617E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Flow-DEV|Any CPU = Flow-DEV|Any CPU
+		Flow-PRD|Any CPU = Flow-PRD|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3AFCBD5-1E9E-499D-9A45-C83A95E75913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AFCBD5-1E9E-499D-9A45-C83A95E75913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AFCBD5-1E9E-499D-9A45-C83A95E75913}.Flow-DEV|Any CPU.ActiveCfg = Flow-DEV|Any CPU
+		{B3AFCBD5-1E9E-499D-9A45-C83A95E75913}.Flow-DEV|Any CPU.Build.0 = Flow-DEV|Any CPU
+		{B3AFCBD5-1E9E-499D-9A45-C83A95E75913}.Flow-PRD|Any CPU.ActiveCfg = Flow-PRD|Any CPU
+		{B3AFCBD5-1E9E-499D-9A45-C83A95E75913}.Flow-PRD|Any CPU.Build.0 = Flow-PRD|Any CPU
+		{B3AFCBD5-1E9E-499D-9A45-C83A95E75913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AFCBD5-1E9E-499D-9A45-C83A95E75913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29F0906-0A83-48B2-8AC8-BE5705E249B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29F0906-0A83-48B2-8AC8-BE5705E249B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29F0906-0A83-48B2-8AC8-BE5705E249B5}.Flow-DEV|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29F0906-0A83-48B2-8AC8-BE5705E249B5}.Flow-DEV|Any CPU.Build.0 = Debug|Any CPU
+		{F29F0906-0A83-48B2-8AC8-BE5705E249B5}.Flow-PRD|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29F0906-0A83-48B2-8AC8-BE5705E249B5}.Flow-PRD|Any CPU.Build.0 = Debug|Any CPU
+		{F29F0906-0A83-48B2-8AC8-BE5705E249B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29F0906-0A83-48B2-8AC8-BE5705E249B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BC411B-0D54-480A-B0D1-0C7693F617E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BC411B-0D54-480A-B0D1-0C7693F617E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BC411B-0D54-480A-B0D1-0C7693F617E8}.Flow-DEV|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BC411B-0D54-480A-B0D1-0C7693F617E8}.Flow-DEV|Any CPU.Build.0 = Debug|Any CPU
+		{37BC411B-0D54-480A-B0D1-0C7693F617E8}.Flow-PRD|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BC411B-0D54-480A-B0D1-0C7693F617E8}.Flow-PRD|Any CPU.Build.0 = Debug|Any CPU
+		{37BC411B-0D54-480A-B0D1-0C7693F617E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BC411B-0D54-480A-B0D1-0C7693F617E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3AFCBD5-1E9E-499D-9A45-C83A95E75913} = {363159A9-A84D-49BD-BB0F-0F4BDCC7CDF7}
+		{F29F0906-0A83-48B2-8AC8-BE5705E249B5} = {363159A9-A84D-49BD-BB0F-0F4BDCC7CDF7}
+		{37BC411B-0D54-480A-B0D1-0C7693F617E8} = {363159A9-A84D-49BD-BB0F-0F4BDCC7CDF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {333B9299-D6F3-4B21-9300-34AA7C130371}
+	EndGlobalSection
+EndGlobal
