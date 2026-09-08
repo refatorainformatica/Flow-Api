@@ -411,3 +411,8 @@ Apis/Docker/logs/
 .env
 .env.*
 !.env.example
+
+# AI Engineering Harness (ephemeral)
+.ai-harness/Runtime/state/runs/
+.ai-harness/Runtime/sandbox/worktrees/
+.ai-harness/Runtime/state/CURRENT

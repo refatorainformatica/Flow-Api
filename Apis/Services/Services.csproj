@@ -6,12 +6,7 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="CSharpier.MsBuild" Version="0.30.6">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
+  <!-- Pacotes centralizados em Shared.csproj -->
 
   <ItemGroup>
     <ProjectReference Include="..\Shared\Shared.csproj" />

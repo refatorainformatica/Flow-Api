@@ -26,7 +26,7 @@ internal class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddApiVersioningExtension();
         builder.Services.AddHealthChecks();
-        builder.Services.AddAutoMapper(serviceAssembly);
+        builder.Services.AddAutoMapper(_ => { }, serviceAssembly);
         builder.Services.ConfigureModules([serviceAssembly], builder.Configuration);
 
         builder.Services.AddSwaggerExtension();

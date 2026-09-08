@@ -11,7 +11,7 @@
             "request": "launch",
             "name": ".NET Core Launch (web)",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Apis/Application/bin/Debug/net8.0/Application.dll",
+            "program": "${workspaceFolder}/Apis/Application/bin/Debug/net9.0/Application.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Apis/Application",
             "stopAtEntry": false,

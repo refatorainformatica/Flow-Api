@@ -4,10 +4,10 @@ using Shared.Domain.Abstractions.Modules;
 
 namespace Application.Configuration
 {
-    [ExcludeFromCodeCoverage]
     /// <summary>
     /// Provides methods for discovering and configuring modules in the application.
     /// </summary>
+    [ExcludeFromCodeCoverage]
     public static class ModuleDiscovery
     {
         private static readonly Type ModuleType = typeof(IModule);

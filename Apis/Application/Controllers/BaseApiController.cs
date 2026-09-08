@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using NuGet.Packaging;
 using Shared.Domain.Abstractions.Enumerations;
 using Shared.Domain.Abstractions.Primitives;
 using Shared.Infrastructure.Resources;
@@ -130,7 +129,10 @@ namespace Application.Controllers
                 .GroupBy(f => f.Code)
                 .ToDictionary(g => g.Key, g => g.Select(f => f.Description).ToArray());
 
-            problemDetails.Errors.AddRange(errorsGrouped);
+            foreach (var (code, descriptions) in errorsGrouped)
+            {
+                problemDetails.Errors.Add(code, descriptions);
+            }
 
             return BadRequest(problemDetails);
         }
